@@ -17655,7 +17655,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -43613,6 +43613,10 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -6293122289489761303, guid: 0665d206c4c0dc447846df90b707288e, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 458313996851714113, guid: 0665d206c4c0dc447846df90b707288e, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -4842736947894412845, guid: 0665d206c4c0dc447846df90b707288e, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &2024751780
@@ -48580,6 +48584,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1716978682851349551, guid: 4f62c661fc243ea4c8a70de80e22720b,
+        type: 3}
+      propertyPath: m_RenderAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940927132390250993, guid: 4f62c661fc243ea4c8a70de80e22720b,
+        type: 3}
+      propertyPath: m_Range
+      value: 8.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940927132390250993, guid: 4f62c661fc243ea4c8a70de80e22720b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.6650944
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940927132390250993, guid: 4f62c661fc243ea4c8a70de80e22720b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.68901616
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940927132390250993, guid: 4f62c661fc243ea4c8a70de80e22720b,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 15.87
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f62c661fc243ea4c8a70de80e22720b, type: 3}
 --- !u!1 &1716978682008336667 stripped
@@ -48777,6 +48806,11 @@ PrefabInstance:
     - target: {fileID: 4769551307201629151, guid: a6ed1d358e3cfa24f8849883c8b7f733,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769551307201629151, guid: a6ed1d358e3cfa24f8849883c8b7f733,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
